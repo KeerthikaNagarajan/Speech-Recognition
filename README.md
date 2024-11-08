@@ -1,8 +1,11 @@
- <H4>Keerthika N</H4>
-<H4>212221230049</H4>
-<H4>EX. NO.8</H4>
-<H4>DATE: 21.10.24</H4>
-<H1 ALIGN =CENTER>Implementation of Speech Recognition</H1>
+## Date: 21.10.24
+
+<h1 align="center">  
+   Experiment 8: Implementation of Speech Recognition 
+</h1>  
+
+### Name: Keerthika N
+### Register Number: 212221230049
 
 ## Aim:
  To implement the conversion of live speech to text.<BR>
