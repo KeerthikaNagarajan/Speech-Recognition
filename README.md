@@ -1,4 +1,4 @@
-## Date: 04.10.24
+## Date: 04.10.2024
 
 <h1 align="center">  
    Experiment 8: Implementation of Speech Recognition 
