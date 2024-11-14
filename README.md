@@ -37,31 +37,37 @@ Perform speech recognition with exceptional handling:<Br>
 ## Program:
 ```py
 
-pip install SpeechRecognition
-pip install pyaudio
-
+import pyaudio
 import speech_recognition as sr
+
+# initialize the Recognizer
 r = sr.Recognizer()
 
-duration = 15
-print("Say something:")
+# Set duration for audio capture
+duration = 10
 
-with sr.Microphone() as source :
-    audio_data = r.listen(source,timeout = duration)
+# Record audio
+print("Say Something")
+
+# Use the default microphone as the audio source
+with sr.Microphone() as source:
+    audio_data = r.listen(source, timeout=duration)
 
 try:
     text = r.recognize_google(audio_data)
-    print("You said:", text)
+    print("you said:", text)
 except sr.UnknownValueError:
     print("Sorry, could not understand audio")
 except sr.RequestError as e:
-    print(f'Error with the request to Google Speech Recognition service: {e}')
+    print(f'Error with the request to Google Speech Recognition Service: {e}')
 except Exception as e:
     print(f'Error: {e}')
 
+
 ```
 ## Output:
-![image](https://github.com/user-attachments/assets/579ff590-957b-42e9-b4fe-6a6027a1f54a)
+<img width="404" alt="output 8 " src="https://github.com/user-attachments/assets/59f7902f-0eac-4544-bf26-0db0eeb44251">
+
 
 ## Result:
 Thus, we have implemented a program that will transcribe the audio file in the file variable and print the transcribed text on the console, one line at a time.
