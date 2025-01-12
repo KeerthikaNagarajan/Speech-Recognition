@@ -1,11 +1,8 @@
-## Date: 04.10.2024
 
 <h1 align="center">  
-   Experiment 8: Implementation of Speech Recognition 
+  Implementation of Speech Recognition 
 </h1>  
 
-### Name: Keerthika N
-### Register Number: 212221230049
 
 ## Aim:
  To implement the conversion of live speech to text.<BR>
